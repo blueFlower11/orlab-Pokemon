@@ -1,0 +1,797 @@
+[
+  {
+    "kataloski_broj": 1,
+    "naziv": "Listić",
+    "opis": "Maleno šumsko biće koje skuplja sunčevu toplinu u listovima.",
+    "visina_cm": 22.0,
+    "masa_kg": 1.3,
+    "staniste": "Šumski rub",
+    "rijetkost": "Uobičajena",
+    "tipovi": [
+      {
+        "redni_broj": 1,
+        "naziv": "Biljni"
+      }
+    ],
+    "sposobnosti": [
+      {
+        "naziv": "Fotosinteza",
+        "utor": 1,
+        "skrivena": false
+      },
+      {
+        "naziv": "Korijenov prasak",
+        "utor": 3,
+        "skrivena": true
+      }
+    ],
+    "osnovne_statistike": {
+      "zdravlje": 32,
+      "napad": 28,
+      "obrana": 30,
+      "specijalni_napad": 35,
+      "specijalna_obrana": 34,
+      "brzina": 41
+    },
+    "razvija_se_iz": [],
+    "razvija_se_u": [
+      {
+        "naziv_djeteta": "Trnovrat",
+        "nacin": "Sazrijevanje",
+        "uvjeti": [
+          {
+            "vrsta": "Minimalna razina",
+            "vrijednost": "12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kataloski_broj": 2,
+    "naziv": "Trnovrat",
+    "opis": "Čuvar šumskog tla čije bodlje štite mlade biljke.",
+    "visina_cm": 68.0,
+    "masa_kg": 12.4,
+    "staniste": "Šumski rub",
+    "rijetkost": "Neuobičajena",
+    "tipovi": [
+      {
+        "redni_broj": 1,
+        "naziv": "Biljni"
+      }
+    ],
+    "sposobnosti": [
+      {
+        "naziv": "Koraštit",
+        "utor": 1,
+        "skrivena": false
+      },
+      {
+        "naziv": "Korijenov prasak",
+        "utor": 3,
+        "skrivena": true
+      }
+    ],
+    "osnovne_statistike": {
+      "zdravlje": 58,
+      "napad": 54,
+      "obrana": 61,
+      "specijalni_napad": 52,
+      "specijalna_obrana": 58,
+      "brzina": 48
+    },
+    "razvija_se_iz": [
+      {
+        "naziv_roditelja": "Listić",
+        "nacin": "Sazrijevanje",
+        "uvjeti": [
+          {
+            "vrsta": "Minimalna razina",
+            "vrijednost": "12"
+          }
+        ]
+      }
+    ],
+    "razvija_se_u": [
+      {
+        "naziv_djeteta": "Šumokljun",
+        "nacin": "Sazrijevanje",
+        "uvjeti": [
+          {
+            "vrsta": "Minimalna razina",
+            "vrijednost": "28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kataloski_broj": 3,
+    "naziv": "Šumokljun",
+    "opis": "Snažno krošnjasto biće koje širi sjeme na velike udaljenosti.",
+    "visina_cm": 180.0,
+    "masa_kg": 74.0,
+    "staniste": "Šumski rub",
+    "rijetkost": "Rijetka",
+    "tipovi": [
+      {
+        "redni_broj": 1,
+        "naziv": "Biljni"
+      },
+      {
+        "redni_broj": 2,
+        "naziv": "Zemljani"
+      }
+    ],
+    "sposobnosti": [
+      {
+        "naziv": "Koraštit",
+        "utor": 1,
+        "skrivena": false
+      },
+      {
+        "naziv": "Fotosinteza",
+        "utor": 3,
+        "skrivena": true
+      }
+    ],
+    "osnovne_statistike": {
+      "zdravlje": 104,
+      "napad": 88,
+      "obrana": 112,
+      "specijalni_napad": 91,
+      "specijalna_obrana": 105,
+      "brzina": 62
+    },
+    "razvija_se_iz": [
+      {
+        "naziv_roditelja": "Trnovrat",
+        "nacin": "Sazrijevanje",
+        "uvjeti": [
+          {
+            "vrsta": "Minimalna razina",
+            "vrijednost": "28"
+          }
+        ]
+      }
+    ],
+    "razvija_se_u": []
+  },
+  {
+    "kataloski_broj": 4,
+    "naziv": "Žarčić",
+    "opis": "Razigrano biće koje čuva malu iskru u toploj grivi.",
+    "visina_cm": 20.0,
+    "masa_kg": 1.1,
+    "staniste": "Vulkanska dolina",
+    "rijetkost": "Uobičajena",
+    "tipovi": [
+      {
+        "redni_broj": 1,
+        "naziv": "Vatreni"
+      }
+    ],
+    "sposobnosti": [
+      {
+        "naziv": "Žar",
+        "utor": 1,
+        "skrivena": false
+      },
+      {
+        "naziv": "Toplinski oklop",
+        "utor": 3,
+        "skrivena": true
+      }
+    ],
+    "osnovne_statistike": {
+      "zdravlje": 30,
+      "napad": 39,
+      "obrana": 28,
+      "specijalni_napad": 42,
+      "specijalna_obrana": 31,
+      "brzina": 56
+    },
+    "razvija_se_iz": [],
+    "razvija_se_u": [
+      {
+        "naziv_djeteta": "Plamenorep",
+        "nacin": "Sazrijevanje",
+        "uvjeti": [
+          {
+            "vrsta": "Minimalna razina",
+            "vrijednost": "12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kataloski_broj": 5,
+    "naziv": "Plamenorep",
+    "opis": "Brzo biće čiji rep ostavlja kratke tragove topline.",
+    "visina_cm": 82.0,
+    "masa_kg": 18.6,
+    "staniste": "Vulkanska dolina",
+    "rijetkost": "Neuobičajena",
+    "tipovi": [
+      {
+        "redni_broj": 1,
+        "naziv": "Vatreni"
+      }
+    ],
+    "sposobnosti": [
+      {
+        "naziv": "Toplinski oklop",
+        "utor": 1,
+        "skrivena": false
+      },
+      {
+        "naziv": "Plameni nalet",
+        "utor": 3,
+        "skrivena": true
+      }
+    ],
+    "osnovne_statistike": {
+      "zdravlje": 64,
+      "napad": 71,
+      "obrana": 58,
+      "specijalni_napad": 68,
+      "specijalna_obrana": 55,
+      "brzina": 76
+    },
+    "razvija_se_iz": [
+      {
+        "naziv_roditelja": "Žarčić",
+        "nacin": "Sazrijevanje",
+        "uvjeti": [
+          {
+            "vrsta": "Minimalna razina",
+            "vrijednost": "12"
+          }
+        ]
+      }
+    ],
+    "razvija_se_u": [
+      {
+        "naziv_djeteta": "Ognjenik",
+        "nacin": "Sazrijevanje",
+        "uvjeti": [
+          {
+            "vrsta": "Minimalna razina",
+            "vrijednost": "28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kataloski_broj": 6,
+    "naziv": "Ognjenik",
+    "opis": "Moćni stanovnik doline koji nadzire tokove užarene stijene.",
+    "visina_cm": 166.0,
+    "masa_kg": 79.2,
+    "staniste": "Vulkanska dolina",
+    "rijetkost": "Rijetka",
+    "tipovi": [
+      {
+        "redni_broj": 1,
+        "naziv": "Vatreni"
+      },
+      {
+        "redni_broj": 2,
+        "naziv": "Zračni"
+      }
+    ],
+    "sposobnosti": [
+      {
+        "naziv": "Plameni nalet",
+        "utor": 1,
+        "skrivena": false
+      },
+      {
+        "naziv": "Žar",
+        "utor": 3,
+        "skrivena": true
+      }
+    ],
+    "osnovne_statistike": {
+      "zdravlje": 99,
+      "napad": 113,
+      "obrana": 82,
+      "specijalni_napad": 108,
+      "specijalna_obrana": 84,
+      "brzina": 101
+    },
+    "razvija_se_iz": [
+      {
+        "naziv_roditelja": "Plamenorep",
+        "nacin": "Sazrijevanje",
+        "uvjeti": [
+          {
+            "vrsta": "Minimalna razina",
+            "vrijednost": "28"
+          }
+        ]
+      }
+    ],
+    "razvija_se_u": []
+  },
+  {
+    "kataloski_broj": 7,
+    "naziv": "Kapljak",
+    "opis": "Sitno vodeno biće koje živi uz mirne riječne rukavce.",
+    "visina_cm": 24.0,
+    "masa_kg": 0.9,
+    "staniste": "Riječni rukavac",
+    "rijetkost": "Uobičajena",
+    "tipovi": [
+      {
+        "redni_broj": 1,
+        "naziv": "Vodeni"
+      }
+    ],
+    "sposobnosti": [
+      {
+        "naziv": "Osjet struje",
+        "utor": 1,
+        "skrivena": false
+      },
+      {
+        "naziv": "Vodeni veo",
+        "utor": 3,
+        "skrivena": true
+      }
+    ],
+    "osnovne_statistike": {
+      "zdravlje": 34,
+      "napad": 30,
+      "obrana": 42,
+      "specijalni_napad": 39,
+      "specijalna_obrana": 51,
+      "brzina": 45
+    },
+    "razvija_se_iz": [],
+    "razvija_se_u": [
+      {
+        "naziv_djeteta": "Brzoperaj",
+        "nacin": "Sazrijevanje",
+        "uvjeti": [
+          {
+            "vrsta": "Minimalna razina",
+            "vrijednost": "12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kataloski_broj": 8,
+    "naziv": "Brzoperaj",
+    "opis": "Spretan plivač koji osjeća promjene u riječnim strujama.",
+    "visina_cm": 75.0,
+    "masa_kg": 16.0,
+    "staniste": "Riječni rukavac",
+    "rijetkost": "Neuobičajena",
+    "tipovi": [
+      {
+        "redni_broj": 1,
+        "naziv": "Vodeni"
+      }
+    ],
+    "sposobnosti": [
+      {
+        "naziv": "Vodeni veo",
+        "utor": 1,
+        "skrivena": false
+      },
+      {
+        "naziv": "Dubinska struja",
+        "utor": 3,
+        "skrivena": true
+      }
+    ],
+    "osnovne_statistike": {
+      "zdravlje": 68,
+      "napad": 55,
+      "obrana": 73,
+      "specijalni_napad": 74,
+      "specijalna_obrana": 79,
+      "brzina": 67
+    },
+    "razvija_se_iz": [
+      {
+        "naziv_roditelja": "Kapljak",
+        "nacin": "Sazrijevanje",
+        "uvjeti": [
+          {
+            "vrsta": "Minimalna razina",
+            "vrijednost": "12"
+          }
+        ]
+      }
+    ],
+    "razvija_se_u": [
+      {
+        "naziv_djeteta": "Plimorog",
+        "nacin": "Sazrijevanje",
+        "uvjeti": [
+          {
+            "vrsta": "Minimalna razina",
+            "vrijednost": "28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kataloski_broj": 9,
+    "naziv": "Plimorog",
+    "opis": "Dubokovodno biće čiji snažni rogovi razbijaju visoke valove.",
+    "visina_cm": 155.0,
+    "masa_kg": 63.0,
+    "staniste": "Riječni rukavac",
+    "rijetkost": "Rijetka",
+    "tipovi": [
+      {
+        "redni_broj": 1,
+        "naziv": "Vodeni"
+      },
+      {
+        "redni_broj": 2,
+        "naziv": "Zračni"
+      }
+    ],
+    "sposobnosti": [
+      {
+        "naziv": "Dubinska struja",
+        "utor": 1,
+        "skrivena": false
+      },
+      {
+        "naziv": "Olujni zov",
+        "utor": 3,
+        "skrivena": true
+      }
+    ],
+    "osnovne_statistike": {
+      "zdravlje": 98,
+      "napad": 87,
+      "obrana": 102,
+      "specijalni_napad": 116,
+      "specijalna_obrana": 108,
+      "brzina": 89
+    },
+    "razvija_se_iz": [
+      {
+        "naziv_roditelja": "Brzoperaj",
+        "nacin": "Sazrijevanje",
+        "uvjeti": [
+          {
+            "vrsta": "Minimalna razina",
+            "vrijednost": "28"
+          }
+        ]
+      }
+    ],
+    "razvija_se_u": []
+  },
+  {
+    "kataloski_broj": 10,
+    "naziv": "Šljunak",
+    "opis": "Malo kameno biće koje se skriva među zaobljenim oblutcima.",
+    "visina_cm": 26.0,
+    "masa_kg": 4.0,
+    "staniste": "Stjenovita visoravan",
+    "rijetkost": "Uobičajena",
+    "tipovi": [
+      {
+        "redni_broj": 1,
+        "naziv": "Zemljani"
+      }
+    ],
+    "sposobnosti": [
+      {
+        "naziv": "Kamenokoža",
+        "utor": 1,
+        "skrivena": false
+      },
+      {
+        "naziv": "Potresni udar",
+        "utor": 3,
+        "skrivena": true
+      }
+    ],
+    "osnovne_statistike": {
+      "zdravlje": 40,
+      "napad": 45,
+      "obrana": 54,
+      "specijalni_napad": 25,
+      "specijalna_obrana": 33,
+      "brzina": 28
+    },
+    "razvija_se_iz": [],
+    "razvija_se_u": [
+      {
+        "naziv_djeteta": "Kamenoril",
+        "nacin": "Sazrijevanje",
+        "uvjeti": [
+          {
+            "vrsta": "Minimalna razina",
+            "vrijednost": "12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kataloski_broj": 11,
+    "naziv": "Kamenoril",
+    "opis": "Čvrsto biće s oklopom od slojevitog granita.",
+    "visina_cm": 88.0,
+    "masa_kg": 62.0,
+    "staniste": "Stjenovita visoravan",
+    "rijetkost": "Neuobičajena",
+    "tipovi": [
+      {
+        "redni_broj": 1,
+        "naziv": "Zemljani"
+      }
+    ],
+    "sposobnosti": [
+      {
+        "naziv": "Potresni udar",
+        "utor": 1,
+        "skrivena": false
+      },
+      {
+        "naziv": "Kamenokoža",
+        "utor": 3,
+        "skrivena": true
+      }
+    ],
+    "osnovne_statistike": {
+      "zdravlje": 79,
+      "napad": 82,
+      "obrana": 106,
+      "specijalni_napad": 45,
+      "specijalna_obrana": 72,
+      "brzina": 33
+    },
+    "razvija_se_iz": [
+      {
+        "naziv_roditelja": "Šljunak",
+        "nacin": "Sazrijevanje",
+        "uvjeti": [
+          {
+            "vrsta": "Minimalna razina",
+            "vrijednost": "12"
+          }
+        ]
+      }
+    ],
+    "razvija_se_u": [
+      {
+        "naziv_djeteta": "Gromoklop",
+        "nacin": "Sazrijevanje",
+        "uvjeti": [
+          {
+            "vrsta": "Minimalna razina",
+            "vrijednost": "28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kataloski_broj": 12,
+    "naziv": "Gromoklop",
+    "opis": "Teško biće čiji koraci pokreću sitne odrone.",
+    "visina_cm": 172.0,
+    "masa_kg": 148.0,
+    "staniste": "Stjenovita visoravan",
+    "rijetkost": "Rijetka",
+    "tipovi": [
+      {
+        "redni_broj": 1,
+        "naziv": "Zemljani"
+      },
+      {
+        "redni_broj": 2,
+        "naziv": "Vatreni"
+      }
+    ],
+    "sposobnosti": [
+      {
+        "naziv": "Gromovita obrana",
+        "utor": 1,
+        "skrivena": false
+      },
+      {
+        "naziv": "Potresni udar",
+        "utor": 3,
+        "skrivena": true
+      }
+    ],
+    "osnovne_statistike": {
+      "zdravlje": 115,
+      "napad": 121,
+      "obrana": 132,
+      "specijalni_napad": 68,
+      "specijalna_obrana": 102,
+      "brzina": 47
+    },
+    "razvija_se_iz": [
+      {
+        "naziv_roditelja": "Kamenoril",
+        "nacin": "Sazrijevanje",
+        "uvjeti": [
+          {
+            "vrsta": "Minimalna razina",
+            "vrijednost": "28"
+          }
+        ]
+      }
+    ],
+    "razvija_se_u": []
+  },
+  {
+    "kataloski_broj": 13,
+    "naziv": "Puhić",
+    "opis": "Lagano biće koje klizi iznad travnatih poljana.",
+    "visina_cm": 19.0,
+    "masa_kg": 0.6,
+    "staniste": "Vjetrovita poljana",
+    "rijetkost": "Uobičajena",
+    "tipovi": [
+      {
+        "redni_broj": 1,
+        "naziv": "Zračni"
+      }
+    ],
+    "sposobnosti": [
+      {
+        "naziv": "Vjetrohod",
+        "utor": 1,
+        "skrivena": false
+      },
+      {
+        "naziv": "Oštro oko",
+        "utor": 3,
+        "skrivena": true
+      }
+    ],
+    "osnovne_statistike": {
+      "zdravlje": 28,
+      "napad": 26,
+      "obrana": 24,
+      "specijalni_napad": 35,
+      "specijalna_obrana": 32,
+      "brzina": 72
+    },
+    "razvija_se_iz": [],
+    "razvija_se_u": [
+      {
+        "naziv_djeteta": "Vjetrokrest",
+        "nacin": "Sazrijevanje",
+        "uvjeti": [
+          {
+            "vrsta": "Minimalna razina",
+            "vrijednost": "12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kataloski_broj": 14,
+    "naziv": "Vjetrokrest",
+    "opis": "Brzo biće koje usmjerava vjetar širokim krilima.",
+    "visina_cm": 69.0,
+    "masa_kg": 8.4,
+    "staniste": "Vjetrovita poljana",
+    "rijetkost": "Neuobičajena",
+    "tipovi": [
+      {
+        "redni_broj": 1,
+        "naziv": "Zračni"
+      }
+    ],
+    "sposobnosti": [
+      {
+        "naziv": "Oštro oko",
+        "utor": 1,
+        "skrivena": false
+      },
+      {
+        "naziv": "Olujni zov",
+        "utor": 3,
+        "skrivena": true
+      }
+    ],
+    "osnovne_statistike": {
+      "zdravlje": 58,
+      "napad": 52,
+      "obrana": 43,
+      "specijalni_napad": 62,
+      "specijalna_obrana": 56,
+      "brzina": 104
+    },
+    "razvija_se_iz": [
+      {
+        "naziv_roditelja": "Puhić",
+        "nacin": "Sazrijevanje",
+        "uvjeti": [
+          {
+            "vrsta": "Minimalna razina",
+            "vrijednost": "12"
+          }
+        ]
+      }
+    ],
+    "razvija_se_u": [
+      {
+        "naziv_djeteta": "Olujokril",
+        "nacin": "Sazrijevanje",
+        "uvjeti": [
+          {
+            "vrsta": "Minimalna razina",
+            "vrijednost": "28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kataloski_broj": 15,
+    "naziv": "Olujokril",
+    "opis": "Rijetko biće koje se pojavljuje prije ljetnih oluja.",
+    "visina_cm": 151.0,
+    "masa_kg": 33.2,
+    "staniste": "Vjetrovita poljana",
+    "rijetkost": "Rijetka",
+    "tipovi": [
+      {
+        "redni_broj": 1,
+        "naziv": "Zračni"
+      },
+      {
+        "redni_broj": 2,
+        "naziv": "Svjetlosni"
+      }
+    ],
+    "sposobnosti": [
+      {
+        "naziv": "Olujni zov",
+        "utor": 1,
+        "skrivena": false
+      },
+      {
+        "naziv": "Vjetrohod",
+        "utor": 3,
+        "skrivena": true
+      }
+    ],
+    "osnovne_statistike": {
+      "zdravlje": 94,
+      "napad": 83,
+      "obrana": 74,
+      "specijalni_napad": 112,
+      "specijalna_obrana": 88,
+      "brzina": 128
+    },
+    "razvija_se_iz": [
+      {
+        "naziv_roditelja": "Vjetrokrest",
+        "nacin": "Sazrijevanje",
+        "uvjeti": [
+          {
+            "vrsta": "Minimalna razina",
+            "vrijednost": "28"
+          }
+        ]
+      }
+    ],
+    "razvija_se_u": []
+  }
+]
